@@ -1,0 +1,11 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "build:dev": "pnpm -F @opentiny/tiny-toolkit-dev build",
+    "build:docs": "pnpm -F @opentiny/tiny-toolkit-docs build",
+    "build:hwc": "pnpm -F @opentiny/tiny-plugin-hwc build",
+    "build:link": "pnpm -F @opentiny/tiny-plugin-link build",
+    "build:lint": "pnpm -F @opentiny/tiny-plugin-lint build"
+  }
+}
